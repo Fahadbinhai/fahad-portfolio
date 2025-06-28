@@ -4,5 +4,9 @@
   font-family: "Roboto", sans-serif;
 }
 
+.font-volkhov {
+  font-family: 'Volkhov', serif;
+}
+
 @import "tailwindcss";
 @plugin "daisyui";
