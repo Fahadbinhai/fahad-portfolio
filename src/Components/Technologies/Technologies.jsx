@@ -4,7 +4,7 @@ import { FaHandPointRight } from 'react-icons/fa';
 
 const Technologies = () => {
     return (
-        <div className='mt-14 px-4'>
+        <div id='technology' className='mt-14 px-4'>
             <h3 className='text-white text-center font-bold text-3xl mb-10'>
                 Technologies that I Use
             </h3>

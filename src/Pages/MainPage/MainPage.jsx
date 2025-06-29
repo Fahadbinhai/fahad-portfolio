@@ -4,6 +4,8 @@ import Banner from '../../Components/Banner/Banner';
 import AboutMe from '../../Components/Aboutme/AboutMe';
 import Technologies from '../../Components/Technologies/Technologies';
 import ProjectsSection from '../../Components/ProjectsSection/ProjectsSection';
+import ContactMe from '../../Components/ContactMe/ContactMe';
+import Footer from '../../Components/Footer/Footer';
 
 const MainPage = () => {
     return (
@@ -30,6 +32,10 @@ const MainPage = () => {
             <div>
                 <ProjectsSection></ProjectsSection>
             </div>
+
+            <ContactMe></ContactMe>
+
+            <Footer></Footer>
 
 
 

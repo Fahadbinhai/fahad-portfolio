@@ -1,13 +1,12 @@
 import React from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import img1 from '../assets/Project1/pic1.png'
+import img2 from '../assets/Project1/pic2.png'
+import img3 from '../assets/Project1/pic3.png'
+import img4 from '../assets/Project1/pic4.png'
+import img5 from '../assets/Project1/pic5.png'
 import { Carousel } from 'react-responsive-carousel';
-import img1 from '../assets/project2/pic1.png'
-import img2 from '../assets/project2/pic2.png'
-import img3 from '../assets/project2/pic3.png'
-// import img4 from '../assets/Project1/pic4.png'
-// import img5 from '../assets/Project1/pic5.png'
 
-const Project2Slider = () => {
+const Project3Slider = () => {
     return (
         <Carousel
             showArrows={false}
@@ -27,14 +26,14 @@ const Project2Slider = () => {
             <div>
                 <img src={img3} alt="Screenshot 3" className="object-cover w-full h-full" />
             </div>
-            {/* <div>
+            <div>
                 <img src={img4} alt="Screenshot 3" className="object-cover w-full h-full" />
             </div>
             <div>
                 <img src={img5} alt="Screenshot 3" className="object-cover w-full h-full" />
-            </div> */}
+            </div>
         </Carousel>
     );
 };
 
-export default Project2Slider;
+export default Project3Slider;

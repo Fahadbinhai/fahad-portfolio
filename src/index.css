@@ -8,5 +8,9 @@
   font-family: 'Volkhov', serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @import "tailwindcss";
 @plugin "daisyui";

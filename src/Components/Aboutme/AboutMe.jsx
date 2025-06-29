@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <div className="max-w-3xl lg:max-w-4xl mx-auto mt-12 bg-gradient-to-r from-cyan-700/40 to-blue-900/40 border border-cyan-500/30 rounded-xl shadow-lg px-6 py-8 text-white">
+    <div id='about' className="max-w-3xl lg:max-w-4xl mx-auto mt-12 bg-gradient-to-r from-cyan-700/40 to-blue-900/40 border border-cyan-500/30 rounded-xl shadow-lg px-6 py-8 text-white">
       <h3 className="text-3xl font-bold text-center mb-2">About Me</h3>
       <div className="h-1 w-16 bg-cyan-400 mx-auto mb-4 rounded"></div>
       <p className="text-center md:text-justify leading-relaxed">

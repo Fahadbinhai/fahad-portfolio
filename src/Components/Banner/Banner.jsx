@@ -4,6 +4,7 @@ import { IoMdMail } from 'react-icons/io';
 import { SiGithub } from 'react-icons/si';
 import { ReactTyped } from 'react-typed';
 import picture from '../../assets/super pic.jpg';
+import { Link } from 'react-router';
 
 const Banner = () => {
     return (
@@ -28,7 +29,7 @@ const Banner = () => {
                         ]}
                         typeSpeed={80}
                         backSpeed={50}
-                        backDelay={2000}
+                        backDelay={1500}
                         loop
                     />
 
@@ -40,9 +41,9 @@ const Banner = () => {
                 </div>
 
                 <div className="flex justify-center lg:justify-start gap-4 mt-6">
-                    <a href="#" className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
+                    <Link href="#" className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
                         <SiGithub />
-                    </a>
+                    </Link>
                     <a href="#" className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
                         <FaLinkedin />
                     </a>
