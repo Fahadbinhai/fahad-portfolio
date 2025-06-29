@@ -7,7 +7,7 @@ import picture from '../../assets/super pic.jpg';
 
 const Banner = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 pt-32 px-4 md:px-12 lg:px-42">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 pt-32 px-4 md:px-12 lg:px-42">
 
             {/* Text section */}
             <div className="lg:col-span-4 text-white flex flex-col items-center lg:items-start">

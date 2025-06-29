@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar/Navbar';
 import Banner from '../../Components/Banner/Banner';
 import AboutMe from '../../Components/Aboutme/AboutMe';
 import Technologies from '../../Components/Technologies/Technologies';
+import ProjectsSection from '../../Components/ProjectsSection/ProjectsSection';
 
 const MainPage = () => {
     return (
@@ -10,21 +11,25 @@ const MainPage = () => {
 
             {/* navbar */}
 
-         
-                <Navbar></Navbar>
-         
+
+            <Navbar></Navbar>
+
 
             {/* banner section */}
 
-                {/* banner section */}
+            {/* banner section */}
 
-                <Banner></Banner>
+            <Banner></Banner>
 
-                {/* about me section */}
+            {/* about me section */}
 
-                <AboutMe></AboutMe>
-            
-                <Technologies></Technologies>
+            <AboutMe></AboutMe>
+
+            <Technologies></Technologies>
+
+            <div>
+                <ProjectsSection></ProjectsSection>
+            </div>
 
 
 
