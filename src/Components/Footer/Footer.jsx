@@ -5,9 +5,9 @@ const Footer = () => {
     return (
         <footer className="footer flex flex-col md:flex-row justify-around items-center gap-4 
             bg-transparent text-neutral-content p-4 pb-20">
-            
+
             <aside className="flex items-center gap-2 text-center">
-                <img 
+                <img
                     src={logo}  // এখানে নিজের লোগো path বা URL বসাও
                     alt="Logo"
                     className="w-8 h-8 object-contain rounded-full"
@@ -19,7 +19,7 @@ const Footer = () => {
 
             <nav className="flex gap-4 mt-2 md:mt-0">
                 {/* GitHub */}
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Fahadbinhai" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg"
                         width="24" height="24" viewBox="0 0 24 24" className="fill-current">
                         <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 
@@ -33,7 +33,7 @@ const Footer = () => {
                 </a>
 
                 {/* Gmail */}
-                <a href="mailto:fahadbin0212@gmail.com" target="_blank" rel="noopener noreferrer">
+                <a href="#contact" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg"
                         width="24" height="24" viewBox="0 0 24 24" className="fill-current">
                         <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 
@@ -43,7 +43,7 @@ const Footer = () => {
                 </a>
 
                 {/* LinkedIn */}
-                <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/fahad-bin-hai-tihan-a533342a7" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg"
                         width="24" height="24" viewBox="0 0 24 24" className="fill-current">
                         <path d="M4.98 3.5C4.98 2.12 6.1 1 7.48 1s2.5 1.12

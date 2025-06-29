@@ -6,7 +6,7 @@ import Project3 from '../../Project3/Project3';
 
 const ProjectsSection = () => {
     return (
-        <div id='projects' className='text-white text-center px-4 sm:px-6 lg:px-8 xl:px-12 md:py-16 lg:py-20 max-w-[1400px] mx-auto'>
+        <div id='projects' className='text-white text-center px-4 mt-14 sm:px-6 lg:px-8 xl:px-12 md:py-16 lg:py-20 max-w-[1400px] mx-auto'>
 
             <h3 className='text-3xl md:text-4xl font-bold pb-8 md:pb-12'>My Recent Project</h3>
 

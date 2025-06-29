@@ -5,6 +5,7 @@ import { SiGithub } from 'react-icons/si';
 import { ReactTyped } from 'react-typed';
 import picture from '../../assets/super pic.jpg';
 import { Link } from 'react-router';
+import resume from '../../assets/resume/Resume of Fahad Bin Hai Tihan .pdf'
 
 const Banner = () => {
     return (
@@ -41,20 +42,22 @@ const Banner = () => {
                 </div>
 
                 <div className="flex justify-center lg:justify-start gap-4 mt-6">
-                    <Link href="#" className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
+                    <Link to='https://github.com/Fahadbinhai' className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
                         <SiGithub />
                     </Link>
-                    <a href="#" className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
+                    <Link to="https://www.linkedin.com/in/fahad-bin-hai-tihan-a533342a7" className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
                         <FaLinkedin />
-                    </a>
-                    <a href="#" className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
+                    </Link>
+                    <a href="#contact" className="w-10 h-10 md:w-11 md:h-11 rounded-full border-2 flex justify-center items-center text-blue-600 hover:bg-white hover:text-blue-700">
                         <IoMdMail />
                     </a>
                 </div>
 
                 <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-6">
-                    <button className="btn btn-outline hover:bg-cyan-400 hover:border-cyan-400 w-40">Download Resume</button>
-                    <button className="btn btn-outline w-40">Contact ME</button>
+                    <a href={resume} download='Resume of Fahad' >
+                        <button className="btn btn-outline hover:bg-cyan-400 hover:border-cyan-400 w-40">Download Resume</button>
+                    </a>
+                    <a href="#contact"><button className="btn btn-outline w-40">Contact ME</button></a>
                 </div>
             </div>
 

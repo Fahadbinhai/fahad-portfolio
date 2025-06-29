@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from '../../assets/logo/Logo.jpg'
+import resume from '../../assets/resume/Resume of Fahad Bin Hai Tihan .pdf'
 
 const Navbar = () => {
 
@@ -24,6 +26,7 @@ const Navbar = () => {
     return (
         <div className="navbar bg-transparent backdrop-blur-md border-b border-white/10 shadow-sm text-white fixed top-0 left-0 z-50 py-4">
             <div className="navbar-start">
+                <img className='w-15 h-15 rounded-full hidden lg:block' src={logo} alt="" />
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
@@ -37,7 +40,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">Fahad Bin Hai</a>
+                <a className="ml-3 normal-case font-semibold text-2xl">Fahad Bin Hai</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -45,7 +48,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-outline w-36 btn-md border-cyan-400 text-white hover:bg-cyan-400 hover:text-white">Resume</a>
+                <a href={resume} download='Resume of Fahad' className="btn btn-outline w-36 btn-md border-cyan-400 text-white hover:bg-cyan-400 hover:text-white">Resume</a>
             </div>
         </div>
     );
