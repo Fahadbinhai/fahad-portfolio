@@ -6,16 +6,29 @@ const Footer = () => {
         <footer className="footer flex flex-col md:flex-row justify-around items-center gap-4 
             bg-transparent text-neutral-content p-4 pb-20">
 
-            <aside className="flex items-center gap-2 text-center">
-                <img
-                    src={logo}  // এখানে নিজের লোগো path বা URL বসাও
-                    alt="Logo"
-                    className="w-8 h-8 object-contain rounded-full"
-                />
-                <p className="text-sm md:text-base">
+            <aside className="flex flex-col items-center gap-2 text-center">
+                <div className='flex gap-3'>
+                    <img
+                        src={logo}  // এখানে নিজের লোগো path বা URL বসাও
+                        alt="Logo"
+                        className="w-8 h-8 object-contain rounded-full"
+                    />
+
+                    <div className='text-sm font-bold'>
+                        <p>Email: fahadbin0212@gmail.com</p>
+                        <p>phone/W.app: (+88)01886420667</p>
+                    </div>
+
+                </div>
+
+                <p className="text-sm md:text-base text-gray-600">
                     Copyright © {new Date().getFullYear()} - All rights reserved
                 </p>
+
+
             </aside>
+
+
 
             <nav className="flex gap-4 mt-2 md:mt-0">
                 {/* GitHub */}
