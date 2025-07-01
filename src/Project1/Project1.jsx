@@ -15,22 +15,27 @@ const Project1 = () => {
             </div>
 
             {/* Right side - details */}
-            <div className="flex flex-col justify-center w-full lg:w-1/2 bg-gray-800 text-white p-4 md:p-6 lg:p-8 xl:p-10">
-                <h2 className="mb-4 font-bold text-2xl md:text-3xl lg:text-4xl">HobbyHub</h2>
+            <div className="flex flex-col w-full lg:w-1/2 bg-gray-800 text-white p-4 md:p-6 lg:p-8 xl:p-10">
 
-                <p className="font-medium text-base md:text-lg text-gray-200 mb-4">
-                    HobbyHub is a user-friendly web application where anyone can create their own hobbies, view them in a personal list, and manage them easily.
-                </p>
+                {/* Title & Description (Center Aligned) */}
+                <div className="text-center mb-6">
+                    <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl mb-4">HobbyHub</h2>
+                    <p className="font-medium text-base md:text-lg text-gray-200">
+                        HobbyHub is a user-friendly web application where anyone can create their own hobbies, view them in a personal list, and manage them easily.
+                    </p>
+                </div>
 
-                <ul className="space-y-2 text-gray-300 mb-6">
+                {/* Feature List (Left Aligned) */}
+                <ul className="space-y-2 text-gray-300 mb-6 text-left">
                     <li className="flex items-start"><GoDotFill className="mt-1" /> User can create Hobby Groups, Delete and Update</li>
                     <li className="flex items-start"><GoDotFill className="mt-1" /> A statics that shows how many groups are created</li>
                     <li className="flex items-start"><GoDotFill className="mt-1" /> In Details Page user can see the full details of the Hobby Group</li>
-                    <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Front-end Technology:</span> React, React Router,DaisyUi ,Firebase etc</li>
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Front-end Technology:</span> React, React Router, DaisyUi, Firebase etc</li>
                     <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Back-end Technology:</span> Node.js, Express.js, MongoDB</li>
                 </ul>
 
-                <div className="flex flex-wrap gap-4">
+                {/* Buttons (Left Aligned) */}
+                <div className="flex flex-wrap gap-4 text-left">
                     <button className="btn btn-outline hover:bg-cyan-500 min-w-[140px] h-12">Live Preview</button>
                     <button className="btn btn-outline min-w-[140px] h-12">Source Code</button>
                 </div>
