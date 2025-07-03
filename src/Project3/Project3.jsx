@@ -2,6 +2,8 @@ import React from 'react';
 import { GoDotFill } from 'react-icons/go';
 import Project3Slider from './Project3Slider';
 import { Link } from 'react-router';
+import { IoLink } from 'react-icons/io5';
+import { FaEye } from 'react-icons/fa';
 
 const Project3 = () => {
     return (
@@ -37,9 +39,9 @@ const Project3 = () => {
 
                 {/* Buttons (Left Aligned) */}
                 <div className="flex flex-wrap gap-4 text-left">
-                    <Link to='https://hobby-hub-ca344.web.app/' className="btn btn-outline hover:bg-cyan-500 min-w-[140px] h-12">Live Preview</Link>
-                    <Link to='https://github.com/Fahadbinhai/Hobby-Hub-client' className="btn btn-outline min-w-[140px] h-12">Front-End Code</Link>
-                    <Link to='https://github.com/Fahadbinhai/hobbyHub-server' className="btn btn-outline min-w-[140px] h-12">Back-End Code</Link>
+                    <Link to='https://hobby-hub-ca344.web.app/' className="btn btn-outline hover:bg-cyan-500 min-w-[140px] h-12"><FaEye />Live Preview</Link>
+                    <Link to='https://github.com/Fahadbinhai/Hobby-Hub-client' className="btn btn-outline min-w-[140px] h-12"><IoLink />Front-End Code</Link>
+                    <Link to='https://github.com/Fahadbinhai/hobbyHub-server' className="btn btn-outline min-w-[140px] h-12"><IoLink />Back-End Code</Link>
                 </div>
             </div>
         </div>

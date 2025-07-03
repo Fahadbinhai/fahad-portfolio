@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo/Logo.jpg'
 import resume from '../../assets/resume/Resume of Fahad Bin Hai Tihan .pdf'
+import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -47,8 +48,9 @@ const Navbar = () => {
                     {links}
                 </ul>
             </div>
+            <FaDownload />
             <div className="navbar-end">
-                <a href={resume} download='Resume of Fahad' className="btn btn-outline w-36 btn-md border-cyan-400 text-white hover:bg-cyan-400 hover:text-white">Resume</a>
+                <a href={resume} download='Resume of Fahad' className="btn btn-outline w-36 btn-md border-cyan-400 text-white hover:bg-cyan-400 hover:text-white"><FaDownload /> Resume</a>
             </div>
         </div>
     );

@@ -1,11 +1,12 @@
 import React from 'react';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaDownload, FaLinkedin } from 'react-icons/fa';
 import { IoMdMail } from 'react-icons/io';
 import { SiGithub } from 'react-icons/si';
 import { ReactTyped } from 'react-typed';
 import picture from '../../assets/super pic.jpg';
 import { Link } from 'react-router';
 import resume from '../../assets/resume/Resume of Fahad Bin Hai Tihan .pdf'
+import { MdEmail } from 'react-icons/md';
 
 const Banner = () => {
     return (
@@ -55,9 +56,9 @@ const Banner = () => {
 
                 <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-6">
                     <a href={resume} download='Resume of Fahad' >
-                        <button className="btn btn-outline hover:bg-cyan-400 hover:border-cyan-400 w-40">Download Resume</button>
+                        <button className="btn btn-outline hover:bg-cyan-400 hover:border-cyan-400 w-46"> <FaDownload />Download Resume</button>
                     </a>
-                    <a href="#contact"><button className="btn btn-outline w-40">Contact ME</button></a>
+                    <a href="#contact"><button className="btn btn-outline w-46"> <MdEmail /> Contact ME</button></a>
                 </div>
             </div>
 
