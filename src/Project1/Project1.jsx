@@ -1,6 +1,7 @@
 import React from 'react';
 import Project1Slider from './Project1Slider';
 import { GoDotFill } from 'react-icons/go';
+import { Link } from 'react-router';
 
 const Project1 = () => {
     return (
@@ -36,8 +37,9 @@ const Project1 = () => {
 
                 {/* Buttons (Left Aligned) */}
                 <div className="flex flex-wrap gap-4 text-left">
-                    <button className="btn btn-outline hover:bg-cyan-500 min-w-[140px] h-12">Live Preview</button>
-                    <button className="btn btn-outline min-w-[140px] h-12">Source Code</button>
+                    <Link to='https://hobby-hub-ca344.web.app/' className="btn btn-outline hover:bg-cyan-500 min-w-[140px] h-12">Live Preview</Link>
+                    <Link to='https://github.com/Fahadbinhai/Hobby-Hub-client' className="btn btn-outline min-w-[140px] h-12">Front-End Code</Link>
+                    <Link to='https://github.com/Fahadbinhai/hobbyHub-server' className="btn btn-outline min-w-[140px] h-12">Back-End Code</Link>
                 </div>
             </div>
         </div>
