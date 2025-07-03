@@ -17,20 +17,21 @@ const Project1Slider = () => {
             autoPlay
             interval={3000}
             stopOnHover
+            showIndicators={false}
         >
-            <div>
+            <div className='h-[500px]'>
                 <img src={img1} alt="Screenshot 1" className="object-cover w-full h-full" />
             </div>
-            <div>
+            <div className='h-[500px]'>
                 <img src={img2} alt="Screenshot 2" className="object-cover w-full h-full" />
             </div>
-            <div>
+            <div className='h-[500px]'>
                 <img src={img3} alt="Screenshot 3" className="object-cover w-full h-full" />
             </div>
-            <div>
+            <div className='h-[500px]'>
                 <img src={img4} alt="Screenshot 3" className="object-cover w-full h-full" />
             </div>
-            <div>
+            <div className='h-[500px]'>
                 <img src={img5} alt="Screenshot 3" className="object-cover w-full h-full" />
             </div>
         </Carousel>

@@ -48,7 +48,7 @@ const Navbar = () => {
                     {links}
                 </ul>
             </div>
-            <FaDownload />
+
             <div className="navbar-end">
                 <a href={resume} download='Resume of Fahad' className="btn btn-outline w-36 btn-md border-cyan-400 text-white hover:bg-cyan-400 hover:text-white"><FaDownload /> Resume</a>
             </div>
