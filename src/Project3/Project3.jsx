@@ -22,26 +22,26 @@ const Project3 = () => {
 
                 {/* Title & Description (Center Aligned) */}
                 <div className="text-center mb-6">
-                    <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl mb-4">HobbyHub</h2>
+                    <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl mb-4">AppStore</h2>
                     <p className="font-medium text-base md:text-lg text-gray-200">
-                        HobbyHub is a user-friendly web application where anyone can create their own hobbies, view them in a personal list, and manage them easily.
+                        AppStore is a user-friendly web application.
                     </p>
                 </div>
 
                 {/* Feature List (Left Aligned) */}
                 <ul className="space-y-2 text-gray-300 mb-6 text-left">
-                    <li className="flex items-start"><GoDotFill className="mt-1" /> User can create Hobby Groups, Delete and Update</li>
-                    <li className="flex items-start"><GoDotFill className="mt-1" /> A statics that shows how many groups are created</li>
-                    <li className="flex items-start"><GoDotFill className="mt-1" /> In Details Page user can see the full details of the Hobby Group</li>
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> User Can Login</li>
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> User Can add Comment</li>
+                    {/* <li className="flex items-start"><GoDotFill className="mt-1" /> In Details Page user can see the full details of the Hobby Group</li> */}
                     <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Front-end Technology:</span> React, React Router, DaisyUi, Firebase etc</li>
                     <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Back-end Technology:</span> Node.js, Express.js, MongoDB</li>
                 </ul>
 
                 {/* Buttons (Left Aligned) */}
                 <div className="flex flex-wrap gap-4 text-left">
-                    <Link to='https://hobby-hub-ca344.web.app/' className="btn btn-outline hover:bg-cyan-500 min-w-[140px] h-12"><FaEye />Live Preview</Link>
-                    <Link to='https://github.com/Fahadbinhai/Hobby-Hub-client' className="btn btn-outline min-w-[140px] h-12"><IoLink />Front-End Code</Link>
-                    <Link to='https://github.com/Fahadbinhai/hobbyHub-server' className="btn btn-outline min-w-[140px] h-12"><IoLink />Back-End Code</Link>
+                    <Link to='https://app-store-6796c.web.app/' className="btn btn-outline hover:bg-cyan-500 min-w-[140px] h-12"><FaEye />Live Preview</Link>
+                    <Link to='https://github.com/Fahadbinhai/AppStore' className="btn btn-outline min-w-[140px] h-12"><IoLink />Front-End Code</Link>
+                    {/* <Link to='https://github.com/Fahadbinhai/hobbyHub-server' className="btn btn-outline min-w-[140px] h-12"><IoLink />Back-End Code</Link> */}
                 </div>
             </div>
         </div>

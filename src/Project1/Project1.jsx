@@ -8,7 +8,7 @@ import { IoLink } from 'react-icons/io5';
 const Project1 = () => {
     return (
         <div className="card bg-base-100 shadow-md flex flex-col lg:flex-row 
-            w-full max-w-[1300px] mx-auto border-4 rounded-xl">
+            w-full max-w-[1300px] mx-auto mt-14 border-4 rounded-xl">
 
             {/* Left side - slider box */}
             <div className="w-full lg:w-1/2 bg-gray-800 flex items-center justify-center p-4 md:p-6 lg:p-8">

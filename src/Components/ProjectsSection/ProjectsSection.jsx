@@ -13,13 +13,18 @@ const ProjectsSection = () => {
             {/* TODO: Projects needed to be added */}
 
             {/* project 1 */}
-            <Zoom>
-                <Project1 />
-            </Zoom>
 
             <Zoom className='mt-16'>
                 <Project2></Project2>
             </Zoom>
+
+
+
+            <Zoom>
+                <Project1 />
+            </Zoom>
+
+
 
             <Zoom className='mt-16'>
                 <Project3></Project3>

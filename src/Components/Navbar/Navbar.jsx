@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo/Logo.jpg'
-import resume from '../../assets/resume/Resume of Fahad Bin Hai Tihan .pdf'
+import resume from '../../assets/resume/Resume of Fahad.pdf'
 import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {

@@ -5,7 +5,7 @@ import { SiGithub } from 'react-icons/si';
 import { ReactTyped } from 'react-typed';
 import picture from '../../assets/super pic.jpg';
 import { Link } from 'react-router';
-import resume from '../../assets/resume/Resume of Fahad Bin Hai Tihan .pdf'
+import resume from '../../assets/resume/Resume of Fahad.pdf'
 import { MdEmail } from 'react-icons/md';
 
 const Banner = () => {

@@ -1,9 +1,9 @@
 import React from 'react';
-import img1 from '../assets/Project1/pic1.png'
-import img2 from '../assets/Project1/pic2.png'
-import img3 from '../assets/Project1/pic3.png'
-import img4 from '../assets/Project1/pic4.png'
-import img5 from '../assets/Project1/pic5.png'
+import img1 from '../assets/project3/Screenshot 2025-07-05 025514.png'
+import img2 from '../assets/project3/Screenshot 2025-07-05 025525.png'
+import img3 from '../assets/project3/Screenshot 2025-07-05 025536.png'
+import img4 from '../assets/project3/Screenshot 2025-07-05 025636.png'
+// import img5 from '../assets/Project1/pic5.png'
 import { Carousel } from 'react-responsive-carousel';
 
 const Project3Slider = () => {
@@ -29,9 +29,9 @@ const Project3Slider = () => {
             <div className='h-[500px]'>
                 <img src={img4} alt="Screenshot 3" className="object-cover w-full h-full" />
             </div>
-            <div className='h-[500px]'>
+            {/* <div className='h-[500px]'>
                 <img src={img5} alt="Screenshot 3" className="object-cover w-full h-full" />
-            </div>
+            </div> */}
         </Carousel>
     );
 };
