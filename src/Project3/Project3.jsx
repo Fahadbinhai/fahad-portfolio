@@ -35,6 +35,7 @@ const Project3 = () => {
                     {/* <li className="flex items-start"><GoDotFill className="mt-1" /> In Details Page user can see the full details of the Hobby Group</li> */}
                     <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Front-end Technology:</span> React, React Router, DaisyUi, Firebase etc</li>
                     <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Back-end Technology:</span> Node.js, Express.js, MongoDB</li>
+                    <p> <small className='text-red-600'># this is not my best project. This is a dummy project. soon it will replaced </small> </p>
                 </ul>
 
                 {/* Buttons (Left Aligned) */}
